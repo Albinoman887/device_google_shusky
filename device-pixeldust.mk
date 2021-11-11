@@ -13,5 +13,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 WITH_GMS := true
 PRODUCT_GMS_CLIENTID_BASE := android-google
 
+# Kernel
+TARGET_PREBUILT_KERNEL := device/google/shusky-kernel/Image.lz4
+
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.pixeldust.maintainer="Albinoman887"
