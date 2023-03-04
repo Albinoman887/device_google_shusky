@@ -15,19 +15,17 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_ripcurrent.mk \
-    $(LOCAL_DIR)/aosp_ripcurrent_fullmte.mk \
+    $(LOCAL_DIR)/rising_ripcurrent.mk \
+    $(LOCAL_DIR)/rising_ripcurrent_fullmte.mk \
     $(LOCAL_DIR)/factory_ripcurrent.mk \
-    $(LOCAL_DIR)/aosp_husky.mk \
-    $(LOCAL_DIR)/aosp_husky_fullmte.mk \
+    $(LOCAL_DIR)/rising_husky.mk \
+    $(LOCAL_DIR)/rising_husky_fullmte.mk \
     $(LOCAL_DIR)/factory_husky.mk \
-    $(LOCAL_DIR)/aosp_shiba.mk \
-    $(LOCAL_DIR)/aosp_shiba_fullmte.mk \
-    $(LOCAL_DIR)/factory_shiba.mk \
-    $(LOCAL_DIR)/sigma_husky.mk \
-    $(LOCAL_DIR)/sigma_shiba.mk
+    $(LOCAL_DIR)/rising_shiba.mk \
+    $(LOCAL_DIR)/rising_shiba_fullmte.mk \
+    $(LOCAL_DIR)/factory_shiba.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_ripcurrent-userdebug \
-    aosp_husky-userdebug \
-    aosp_shiba-userdebug
+    rising_ripcurrent-userdebug \
+    rising_husky-userdebug \
+    rising_shiba-userdebug

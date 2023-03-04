@@ -21,12 +21,44 @@ BOARD_USES_SWIFTSHADER := true
 
 $(call inherit-product, device/google/zuma/aosp_common.mk)
 $(call inherit-product, device/google/shusky/device-husky.mk)
+$(call inherit-product, device/google/shusky/sigma_husky.mk)
 
-PRODUCT_NAME := aosp_husky
+
+# Inherit risingOS vendor configs
+$(call inherit-product, vendor/rising/config/rising.mk)
+
+# Device Identifiers
+PRODUCT_BRAND := google
 PRODUCT_DEVICE := husky
-PRODUCT_MODEL := AOSP on husky
-PRODUCT_BRAND := Android
 PRODUCT_MANUFACTURER := Google
+PRODUCT_MODEL := Pixel 8 Pro
+PRODUCT_NAME := rising_husky
+
+# RisingOS variables
+RISING_MAINTAINER := Albinoman887
+RISING_CHIPSET := ZUMA
+
+# Gms variables
+WITH_GMS := true
+
+# Set Pixel launcher as default launcher
+TARGET_PREBUILT_PIXEL_LAUNCHER := true
+
+# Ship Pixel features (adaptivecharging, dreamliner etc)
+TARGET_ENABLE_PIXEL_FEATURES := true
+
+# Use Google telephony framework
+TARGET_USE_GOOGLE_TELEPHONY := true
+
+# Ship Google Camera
+TARGET_PREBUILT_GOOGLE_CAMERA := true
+
+# Use gs101 hotword blobs
+TARGET_PREBUILT_HOTWORD := true
+TARGET_PREBUILT_HOTWORD_TYPE := tensor_zuma
+
+# Addons
+TARGET_HAS_UDFPS := true
 
 DEVICE_MANIFEST_FILE := \
 	device/google/shusky/manifest.xml

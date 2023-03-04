@@ -6,12 +6,9 @@
 
 # Inherit some common Lineage stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/google/shusky/aosp_husky.mk)
 $(call inherit-product, device/google/zuma/lineage_common.mk)
-# $(call inherit-product, vendor/gms/products/gms.mk)
 
 include device/google/shusky/husky/device-lineage.mk
 
@@ -29,8 +26,8 @@ SIGMA_BATTERY_CAPACITY := 5050
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=husky \
-    PRIVATE_BUILD_DESC="husky-user 14 UQ1A.240105.004 11206848 release-keys"
+    PRIVATE_BUILD_DESC="husky-user 14 UQ1A.240205.004 11269751 release-keys"
 
-BUILD_FINGERPRINT := google/husky/husky:14/UQ1A.240105.004/11206848:user/release-keys
+BUILD_FINGERPRINT := google/husky/husky:14/UQ1A.240205.004/11269751:user/release-keys
 
 $(call inherit-product, vendor/google/husky/husky-vendor.mk)
