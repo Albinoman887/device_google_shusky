@@ -22,6 +22,9 @@ BOARD_USES_SWIFTSHADER := true
 $(call inherit-product, device/google/zuma/aosp_common.mk)
 $(call inherit-product, device/google/shusky/device-husky.mk)
 
+# Inherit risingOS vendor stuffs
+$(call inherit-product, vendor/rising/config/rising.mk)
+
 PRODUCT_NAME := aosp_husky
 PRODUCT_DEVICE := husky
 PRODUCT_MODEL := AOSP on husky
