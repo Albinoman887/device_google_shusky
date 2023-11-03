@@ -9,6 +9,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \
     ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
 
+# EUICC
+PRODUCT_PACKAGES += \
+    EuiccSupportPixelOverlay
+
 # GMS
 WITH_GMS := true
 PRODUCT_GMS_CLIENTID_BASE := android-google
