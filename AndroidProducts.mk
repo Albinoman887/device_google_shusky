@@ -23,7 +23,9 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/factory_husky.mk \
     $(LOCAL_DIR)/aosp_shiba.mk \
     $(LOCAL_DIR)/aosp_shiba_fullmte.mk \
-    $(LOCAL_DIR)/factory_shiba.mk
+    $(LOCAL_DIR)/factory_shiba.mk \
+    $(LOCAL_DIR)/pixeldust_husky.mk \
+    $(LOCAL_DIR)/pixeldust_shiba.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_ripcurrent-userdebug \
