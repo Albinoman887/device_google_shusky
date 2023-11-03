@@ -11,9 +11,9 @@ product/etc/CarrierSettings/apt_tw.pb
 product/etc/CarrierSettings/asda_gb.pb
 product/etc/CarrierSettings/assurance_us.pb
 product/etc/CarrierSettings/astca_as.pb
+product/etc/CarrierSettings/att_us.pb
 product/etc/CarrierSettings/att5g_us.pb
 product/etc/CarrierSettings/att5gsa_us.pb
-product/etc/CarrierSettings/att_us.pb
 product/etc/CarrierSettings/attmvnos_us.pb
 product/etc/CarrierSettings/base_be.pb
 product/etc/CarrierSettings/bell_ca.pb
@@ -40,8 +40,8 @@ product/etc/CarrierSettings/consumercellulartmo_us.pb
 product/etc/CarrierSettings/coppervalley_us.pb
 product/etc/CarrierSettings/coriolis_fr.pb
 product/etc/CarrierSettings/cox_us.pb
-product/etc/CarrierSettings/cricket5g_us.pb
 product/etc/CarrierSettings/cricket_us.pb
+product/etc/CarrierSettings/cricket5g_us.pb
 product/etc/CarrierSettings/cspire_nl.pb
 product/etc/CarrierSettings/cspire_us.pb
 product/etc/CarrierSettings/default.pb
@@ -70,8 +70,8 @@ product/etc/CarrierSettings/fi_at.pb
 product/etc/CarrierSettings/fi_us.pb
 product/etc/CarrierSettings/fido_ca.pb
 product/etc/CarrierSettings/firstnet_us.pb
-product/etc/CarrierSettings/firstnetpacific2_us.pb
 product/etc/CarrierSettings/firstnetpacific_us.pb
+product/etc/CarrierSettings/firstnetpacific2_us.pb
 product/etc/CarrierSettings/fizz_ca.pb
 product/etc/CarrierSettings/free_fr.pb
 product/etc/CarrierSettings/freedommobile_ca.pb
@@ -144,8 +144,8 @@ product/etc/CarrierSettings/rakuten_jp.pb
 product/etc/CarrierSettings/redpocketatt_us.pb
 product/etc/CarrierSettings/redpockettmo_us.pb
 product/etc/CarrierSettings/rjio_in.pb
-product/etc/CarrierSettings/rogers5g_ca.pb
 product/etc/CarrierSettings/rogers_ca.pb
+product/etc/CarrierSettings/rogers5g_ca.pb
 product/etc/CarrierSettings/salt_ch.pb
 product/etc/CarrierSettings/sasktel_ca.pb
 product/etc/CarrierSettings/sfr_fr.pb
@@ -220,8 +220,8 @@ product/etc/CarrierSettings/u264ap_at.pb
 product/etc/CarrierSettings/ultra_us.pb
 product/etc/CarrierSettings/umobile_my.pb
 product/etc/CarrierSettings/unifi_my.pb
-product/etc/CarrierSettings/uqmobile5gsa_jp.pb
 product/etc/CarrierSettings/uqmobile_jp.pb
+product/etc/CarrierSettings/uqmobile5gsa_jp.pb
 product/etc/CarrierSettings/uscc_us.pb
 product/etc/CarrierSettings/verizon_us.pb
 product/etc/CarrierSettings/verymobile_it.pb
@@ -254,3 +254,4 @@ product/etc/CarrierSettings/yettel_hu.pb
 product/etc/CarrierSettings/yoigo_es.pb
 product/etc/CarrierSettings/zain_kw.pb
 product/etc/CarrierSettings/zeop_re.pb
+
