@@ -24,7 +24,7 @@
              </string-array>
     -->
     <string-array name="config_logicalZoomRatios">
-        <item>0</item> <item>0.5</item> <item>0.55632502</item>
+        <item>0</item> <item>0.5</item> <item>0.49447829</item>
         <item>0</item> <item>2.0</item> <item>2.0</item>
         <item>0</item> <item>5.0</item> <item>5.0</item>
     </string-array>
