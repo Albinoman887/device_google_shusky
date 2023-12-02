@@ -48,6 +48,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \
     ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
 
+# Face Unlock
+include vendor/google/faceunlock/device.mk
+
 # GMS
 WITH_GMS := true
 TARGET_PREBUILT_PIXEL_LAUNCHER := true
