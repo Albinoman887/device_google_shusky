@@ -12,6 +12,29 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
 
+# For Google Camera
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.aux.camera_oem_package=com.google.android.GoogleCamera \
+    ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \
+    ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
+
+# Face Unlock
+include vendor/google/faceunlock/device.mk
+
+# GMS
+WITH_GMS := true
+PRODUCT_GMS_CLIENTID_BASE := android-google
+TARGET_PREBUILT_PIXEL_LAUNCHER := true
+# Rising testing flag for full p2023 experience
+VENDOR_TEST_ENABLE_PIXEL_EXPERIENCE := true
+# Ship pixel features (adaptivecharging, dreamliner etc)
+TARGET_ENABLE_PIXEL_FEATURES := true
+# Use google telephony framework
+TARGET_USE_GOOGLE_TELEPHONY := true
+TARGET_PREBUILT_SOUND_MODEL := true
+TARGET_ENABLE_HOTWORD := true
+
 # Kernel
 TARGET_PREBUILT_KERNEL := device/google/shusky-kernel/Image.lz4
 
