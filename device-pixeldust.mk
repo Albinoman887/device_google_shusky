@@ -23,5 +23,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-google
 # Kernel
 TARGET_PREBUILT_KERNEL := device/google/shusky-kernel/Image.lz4
 
+# Properties
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.pixeldust.maintainer="Albinoman887"
+
+# Tensor overlay
+$(call inherit-product, vendor/pixeldust/configs/pixel_overlay.mk)
