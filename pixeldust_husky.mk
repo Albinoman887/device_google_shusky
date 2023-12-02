@@ -16,7 +16,7 @@ $(call inherit-product, vendor/pixeldust/configs/telephony.mk)
 export TARGET_DEVICE=husky
 
 # Bootanimation
-BOOTANIMATION := 1080
+BOOTANIMATION := 1440
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := pixeldust_husky
