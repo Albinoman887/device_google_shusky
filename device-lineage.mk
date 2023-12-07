@@ -36,6 +36,9 @@ TARGET_PREBUILT_SOUND_MODEL := true
 TARGET_ENABLE_HOTWORD := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
+# RisingOS Specific flags
+TARGET_ENABLE_CLEAR_CALLING := true
+
 # Kernel
 TARGET_PREBUILT_KERNEL := device/google/shusky-kernel/Image.lz4
 
