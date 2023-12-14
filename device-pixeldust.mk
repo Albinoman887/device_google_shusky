@@ -13,9 +13,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
 
-# Face Unlock
-include vendor/google/faceunlock/device.mk
-
 # GMS
 WITH_GMS := true
 PRODUCT_GMS_CLIENTID_BASE := android-google
