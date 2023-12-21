@@ -6,4 +6,4 @@
 
 include device/google/shusky/BoardConfigLineage.mk
 
-#include vendor/google/husky/BoardConfigVendor.mk
+include vendor/google/husky/BoardConfigVendor.mk
