@@ -369,7 +369,6 @@ VENDOR_SKIP_FILES=(
     "etc/init/init.aoc.rc"
     "etc/init/init.module.rc"
     "etc/init/init.pixel.rc"
-    "etc/init/init.storage.rc"
     "etc/init/init.touch.gti0.rc"
     "etc/init/memtrack.rc"
     "etc/init/nfc-service-default.rc"
@@ -584,7 +583,7 @@ VENDOR_SKIP_FILES=(
     "lib64/android.frameworks.sensorservice-V1-ndk.so"
     "lib64/android.frameworks.stats-V1-ndk.so"
     "lib64/android.frameworks.stats-V2-ndk.so"
-    "lib64/android.hardware.audio.common-V2-ndk.so"
+    "lib64/android.hardware.audio.common-V1-ndk.so"
     "lib64/android.hardware.audio.common-util.so"
     "lib64/android.hardware.audio.common@5.0.so"
     "lib64/android.hardware.audio.common@7.0-enums.so"
@@ -660,7 +659,7 @@ VENDOR_SKIP_FILES=(
     "lib64/arm.graphics-V1-ndk.so"
     "lib64/chre_atoms_log.so"
     "lib64/chremetrics-cpp.so"
-    "lib64/com.google.hardware.pixel.display-V9-ndk.so"
+    "lib64/com.google.hardware.pixel.display-V8-ndk.so"
     "lib64/hw/android.hardware.audio.effect@7.0-impl.so"
     "lib64/hw/android.hardware.audio@7.1-impl.so"
     "lib64/hw/android.hardware.graphics.allocator-aidl-impl.so"
@@ -774,12 +773,6 @@ VENDOR_SKIP_FILES=(
     "lib64/libGralloc4Wrapper.so"
     "lib64/libcamera2ndk_vendor.so"
 
-    # Charger
-    "etc/res/images/charger/battery_fail.png"
-    "etc/res/images/charger/battery_scale.png"
-    "etc/res/images/charger/main_font.png"
-    "etc/res/values/charger/animation.txt"
-
     # Codec2
     "lib64/android.hardware.media.bufferpool2-V1-ndk.so"
     "lib64/android.hardware.media.c2@1.0.so"
@@ -821,9 +814,6 @@ VENDOR_SKIP_FILES=(
     "lib64/libpuresoftkeymasterdevice.so"
     "lib64/libsoft_attestation_cert.so"
 
-    # Json
-    "lib64/libjson.so"
-
     # Nos
     "lib64/lib_android_keymaster_keymint_utils.so"
     "lib64/libcppbor_external.so"
@@ -853,8 +843,8 @@ VENDOR_SKIP_FILES=(
 
     # Trusty
     "lib64/android.trusty.stats.nw.setter-cpp.so"
-    "lib64/lib_sensor_listener.so"
     "lib64/libbinder_trusty.so"
+    "lib64/lib_sensor_listener.so"
     "lib64/libtrusty_metrics.so"
 
     # Misc interfaces
@@ -910,6 +900,7 @@ VENDOR_SKIP_FILES=(
 
     # Misc
     "bin/dump/dump_gsc.sh"
+    "lib64/libjson.so"
 
     # Completely skip files that are not required
 
