@@ -11,6 +11,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/google/shusky/aosp_husky.mk)
 $(call inherit-product, device/google/zuma/lineage_common.mk)
+# $(call inherit-product, vendor/gms/products/gms.mk)
 
 include device/google/shusky/husky/device-lineage.mk
 

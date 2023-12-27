@@ -30,6 +30,13 @@ include hardware/google/pixel/powershare/device.mk
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
+# GMS
+BUILD_GMS_OVERLAYS_AND_PROPS := true
+WITH_GMS := true
+WITH_GAPPS := true
+TARGET_INCLUDE_PIXEL_LAUNCHER := true
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Build necessary packages for vendor
 
 # Audio
