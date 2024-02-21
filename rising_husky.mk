@@ -23,6 +23,8 @@ $(call inherit-product, device/google/zuma/aosp_common.mk)
 $(call inherit-product, device/google/shusky/device-husky.mk)
 $(call inherit-product, device/google/shusky/sigma_husky.mk)
 
+# pixelparts
+$(call inherit-product, vendor/google/pixelparts/pixelparts.mk)
 
 # Inherit risingOS vendor configs
 $(call inherit-product, vendor/rising/config/rising.mk)
